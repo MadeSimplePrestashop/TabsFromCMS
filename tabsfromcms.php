@@ -60,9 +60,12 @@ class tabsFromCms extends Module {
     public function prepareNewTab() {
         $id_lang = $this->context->language->id;
         $cms_array = CMS::listCms($id_lang);
+        //$cms_array = CMS::getCMSPages($id_lang);
         $ids_cms = array('' => '');
         foreach ($cms_array as $cms) {
-            $ids_cms[$cms['id_cms']] = $cms['meta_title'];
+             // $cms_category = new CMSCategory($cms['id_cms_category'],$id_lang);
+            //$cms_category->name . ($cms_category->level_depth > 0 ? str_repeat('- ',($cms_category->level_depth)):'') .
+            $ids_cms[$cms['id_cms']] =  $cms['meta_title'];
         }
         $this->context->smarty->assign(array(
             'custom_fields' => $this->getCustomField((int) Tools::getValue('id_product')),
