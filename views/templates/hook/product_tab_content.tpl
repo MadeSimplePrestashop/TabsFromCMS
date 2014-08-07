@@ -1,0 +1,1 @@
+<section id="{$producttabfromcms_link_rewrite}" class="page-product-box">{eval var=$producttabfromcms_content}</section>

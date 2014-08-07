@@ -1,0 +1,1 @@
+<a class="page-product-heading" href="#{$producttabfromcms_link_rewrite}">{$producttabfromcms_title}</a>
