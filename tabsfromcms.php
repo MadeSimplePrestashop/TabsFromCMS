@@ -11,7 +11,7 @@ class tabsFromCms extends Module {
     public function __construct() {
         $this->name = 'tabsfromcms';
         $this->tab = 'front_office_features';
-        $this->version = '1.0';
+        $this->version = '1.0.1';
         $this->author = 'Kuzmany.biz';
         $this->need_instance = 0;
 
