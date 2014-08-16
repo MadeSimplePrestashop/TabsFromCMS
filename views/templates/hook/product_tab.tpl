@@ -1,4 +1,1 @@
- {*
- Prepare for 1.5 compatibility
- <h3 class="page-product-heading">{$producttabfromcms_title}</h3>
- *}
+<a class="page-product-heading" href="#{$producttabfromcms_link_rewrite}">{$producttabfromcms_title}</a>

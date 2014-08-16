@@ -1,4 +1,1 @@
-<section class="page-product-box">
-    <h3 class="page-product-heading">{$producttabfromcms_title}</h3>
-    <div class="rte">{eval var=$producttabfromcms_content}</div>
-</section>
+<a name="{$producttabfromcms_link_rewrite}"></a><section id="{$producttabfromcms_link_rewrite}" class="page-product-box">{eval var=$producttabfromcms_content}</section>
